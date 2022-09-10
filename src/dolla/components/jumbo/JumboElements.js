@@ -64,7 +64,7 @@ export const JumboContent = styled.div`
     align-items: center;
 
     @media screen and (max-width: 768px){
-        top: 25%;
+        top: 30%;
     }
 `
 
