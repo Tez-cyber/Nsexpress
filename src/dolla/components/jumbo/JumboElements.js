@@ -30,14 +30,14 @@ export const JumboBg = styled.div`
         right: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(
-            100deg,
-            rgba(0, 0, 0, .7) 0%,
-            rgba(0, 0, 0, .9) 100%
-        ), linear-gradient(180deg, rgba(0, 0, 0, .3) 0%,
-        transparent);
-        // background: #000;
-        opacity: .6;
+        // background: linear-gradient(
+        //     100deg,
+        //     rgba(0, 0, 0, .7) 0%,
+        //     rgba(0, 0, 0, .9) 100%
+        // ), linear-gradient(180deg, rgba(0, 0, 0, .3) 0%,
+        // transparent);
+        background: #000;
+        opacity: .8;
         z-index: 2;
     }
 `
@@ -110,3 +110,10 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `
+
+function myFunction(a, b) {
+    return (
+        (b/100) * a
+    )
+}
+myFunction(100, 50)

@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import Sidebar from '../sidebar/Sidebar'
 import Navbar  from '../navbar/Nav'
 import Jumbo from '../jumbo/Jumbo'
-import About from '../dataSection/About'
-import { homeObj } from '../dataSection/Data'
+import QuickInfo from '../dataSection/QuickInfo'
+import { objOne, objTwo, objThree } from '../dataSection/Data'
+import Services from '../services/Services'
+import Footer from '../footer/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -16,7 +18,11 @@ const Home = () => {
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar  toggle={toggle} />
         <Jumbo />
-        <About {...homeObj} />
+        <QuickInfo {...objOne} />
+        <QuickInfo {...objTwo} />
+        <Services />
+        <QuickInfo {...objThree} />
+        <Footer />
     </>
   )
 }

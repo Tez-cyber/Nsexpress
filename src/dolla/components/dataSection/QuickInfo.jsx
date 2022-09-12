@@ -14,9 +14,9 @@ import {
     Column2,
     ImgWrap,
     Img
-} from './AboutElements'
+} from './InfoElements'
 
-const About = ({
+const QuickInfo = ({
     lightBg, id, imgStart, 
     topLine, lightText, darkText, 
     headline, desc, buttonLabel,
@@ -59,4 +59,4 @@ const About = ({
   )
 }
 
-export default About
+export default QuickInfo

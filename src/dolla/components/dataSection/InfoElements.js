@@ -24,7 +24,7 @@ export const InfoRow = styled.div`
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col1 col2'`)};
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
     @media screen and (max-width: 768px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col1 col1' 'col2 col2'`)}
@@ -72,7 +72,8 @@ export const Heading = styled.h1`
     }
 `
 
-export const Subtitle = styled.div`
+export const Subtitle = styled.p`
+    max-width: 440px;
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
