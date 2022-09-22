@@ -8,14 +8,11 @@
 }
 body::-webkit-scrollbar {
     width: 5px;
-    color: #010606;
-    background: #01bf71;
+    /* color: #010606;
+    background: #01bf71; */
 }
-/* body::-webkit-scrollbar-thumb {
-    background: var(--color-bg-variant);
+body::-webkit-scrollbar-thumb {
+    background: #01bf71;
     border: 3px solid var(--white);
     border-radius: var(--border-radius-md);
 }
-body::-webkit-scrollbar-thumb:hover {
-    background: var(--color-primary);
-} */

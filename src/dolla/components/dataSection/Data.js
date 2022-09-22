@@ -1,6 +1,6 @@
 // import img from '../../assets/images/'
 export const objOne = {
-    id: 'about',
+    id: 'info',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,

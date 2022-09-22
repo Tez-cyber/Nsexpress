@@ -32,7 +32,7 @@ const Jumbo = () => {
             modern identity for your brand
           </JumboP>
           <JumboBtnWrapper>
-            <Button to="/signup" 
+            <Button to="/about" 
               onMouseEnter={() => onHover}
               onMouseLeave={() => onHover}
               primary='true'

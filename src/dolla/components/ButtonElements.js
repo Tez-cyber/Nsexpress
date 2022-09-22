@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Link } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 export const Button = styled(Link)`
     border-radius: 50px;
@@ -13,6 +13,7 @@ export const Button = styled(Link)`
     cursor: pointer; 
     display: flex;
     justify-content: center;
+    text-decoration: none;
     align-items: center;
     transition: all .2s ease-in-out;
 

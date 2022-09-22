@@ -37,7 +37,7 @@ export const JumboBg = styled.div`
         // ), linear-gradient(180deg, rgba(0, 0, 0, .3) 0%,
         // transparent);
         background: #000;
-        opacity: .8;
+        opacity: .5;
         z-index: 2;
     }
 `
@@ -110,10 +110,3 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
 `
-
-function myFunction(a, b) {
-    return (
-        (b/100) * a
-    )
-}
-myFunction(100, 50)
