@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, );
+    background: rgba(0, 0, 0, .7);
     backdrop-filter: blur(20px);
     // -webkit-backdrop-filter: blur(20px);
     display: grid;

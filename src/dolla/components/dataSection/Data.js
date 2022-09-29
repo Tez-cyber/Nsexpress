@@ -1,6 +1,7 @@
 // import img from '../../assets/images/'
 export const objOne = {
     id: 'info',
+    fade: true,
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -17,6 +18,7 @@ export const objOne = {
 };
 export const objTwo = {
     id: 'discover',
+    fade: false,
     lightBg: false,
     lightText: true,
     lightTextDesc: false,
@@ -33,6 +35,7 @@ export const objTwo = {
 }
 export const objThree = {
     id: 'signup',
+    fade: false,
     lightBg: false,
     lightText: false,
     lightTextDesc: false,

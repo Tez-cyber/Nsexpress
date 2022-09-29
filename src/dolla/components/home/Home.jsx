@@ -16,7 +16,7 @@ const Home = () => {
         <QuickInfo {...objThree} />
         <Footer />
     </>
-  )
+  ) 
 }
 
 export default Home
