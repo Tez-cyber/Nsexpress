@@ -102,6 +102,10 @@ export const AboutMVCContent = styled.div`
     margin-top: 20px;
     justify-content: center;
     grid-gap: 16px;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `
 export const AboutCard = styled.div`
     position: relative;
