@@ -15,7 +15,6 @@ import {
     ImgWrap,
     Img
 } from './InfoElements'
-import Fade from 'react-reveal/Fade'
 
 const QuickInfo = ({
     lightBg, id, imgStart, 

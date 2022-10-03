@@ -3,8 +3,7 @@ import {
     AboutWrapper, AboutContent, AboutDetails,
     AboutHeader, AboutP, AboutSpin, AboutSpinDiv,
     AboutSpin02, AboutMVC, AboutMVCSpan,
-    AboutMVCHead,  AboutMVCHeading, AboutMVCContent, 
-    AboutMission, AboutVision, AboutCoreValues,
+    AboutMVCHead,  AboutMVCHeading, AboutMVCContent,
     AboutMissionIcon, AboutVisionIcon, AboutCoreValuesIcon,
     AboutWord, AboutCard, AboutFace1, AboutFace2
 } from './AboutElements'
@@ -39,51 +38,50 @@ const About = () => {
                     Mission, Vision And Core Values
                 </AboutMVCHead>
             </AboutMVCHeading>
-            {/* <AboutMVCContent>
+            <AboutMVCContent>
                     <AboutCard>
-                        <AboutFace1>
-                            <AboutMissionIcon />
+                        <AboutFace1 className="face1" >
+                            <AboutMissionIcon /> 
                             <AboutWord>
                                 Mission
                             </AboutWord>
                         </AboutFace1>
-                        <AboutFace2>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, architecto maiores labore amet dicta non laboriosam porro culpa enim exercitationem commodi suscipit. Eveniet, facilis. Maxime dolores fugit vero.
-                            Aliquam vel quos fugiat fugit? Cumque, quod tempora blanditiis rem laudantium sunt tenetur est facere dolor, hic illum iure a magnam earum nostrum, laboriosam ad omnis culpa quis? Pariatur, numquam!
-                            Ab repudiandae atque at tempore, obcaecati dicta fugit unde, beatae repellendus quibusdam magnam tempora molestias cum impedit non cumque amet culpa. Sapiente ex at temporibus omnis quos totam dolores deserunt!
+                        <AboutFace2 className="face2" >
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, 
+                            architecto maiores labore amet dicta non laboriosam porro 
+                            culpa enim exercitationem commodi suscipit. Eveniet, facilis. 
+                            Maxime dolores fugit vero. Aliquam vel quos fugiat fugit? Cumque, 
                         </AboutFace2>
                     </AboutCard>
-                    <AboutCard>
-                    <AboutCard>
-                        <AboutFace1>
-                            <AboutVisionIcon />
+                    <AboutCard className='card'>
+                        <AboutFace1 className="face1" >
+                            <AboutVisionIcon /> 
                             <AboutWord>
-                                Mission
+                                Vision
                             </AboutWord>
                         </AboutFace1>
-                        <AboutFace2>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, architecto maiores labore amet dicta non laboriosam porro culpa enim exercitationem commodi suscipit. Eveniet, facilis. Maxime dolores fugit vero.
-                            Aliquam vel quos fugiat fugit? Cumque, quod tempora blanditiis rem laudantium sunt tenetur est facere dolor, hic illum iure a magnam earum nostrum, laboriosam ad omnis culpa quis? Pariatur, numquam!
-                            Ab repudiandae atque at tempore, obcaecati dicta fugit unde, beatae repellendus quibusdam magnam tempora molestias cum impedit non cumque amet culpa. Sapiente ex at temporibus omnis quos totam dolores deserunt!
+                        <AboutFace2 className="face2" >
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, 
+                            architecto maiores labore amet dicta non laboriosam porro 
+                            culpa enim exercitationem commodi suscipit. Eveniet, facilis. 
+                            Maxime dolores fugit vero. Aliquam vel quos fugiat fugit? Cumque, 
                         </AboutFace2>
                     </AboutCard>
-                    </AboutCard>
                     <AboutCard>
-                        <AboutCard>
-                            <AboutFace1>
-                                <AboutCoreValuesIcon />
-                                <AboutWord>
-                                    Mission
-                                </AboutWord>
-                            </AboutFace1>
-                            <AboutFace2>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, architecto maiores labore amet dicta non laboriosam porro culpa enim exercitationem commodi suscipit. Eveniet, facilis. Maxime dolores fugit vero.
-                                Aliquam vel quos fugiat fugit? Cumque, quod tempora blanditiis rem laudantium sunt tenetur est facere dolor, hic illum iure a magnam earum nostrum, laboriosam ad omnis culpa quis? Pariatur, numquam!
-                                Ab repudiandae atque at tempore, obcaecati dicta fugit unde, beatae repellendus quibusdam magnam tempora molestias cum impedit non cumque amet culpa. Sapiente ex at temporibus omnis quos totam dolores deserunt!
-                            </AboutFace2>
+                        <AboutFace1 className="face1" >
+                            <AboutCoreValuesIcon /> 
+                            <AboutWord>
+                                Core Values
+                            </AboutWord>
+                        </AboutFace1>
+                        <AboutFace2 className="face2" >
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, inventore debitis, 
+                            architecto maiores labore amet dicta non laboriosam porro 
+                            culpa enim exercitationem commodi suscipit. Eveniet, facilis. 
+                            Maxime dolores fugit vero. Aliquam vel quos fugiat fugit? Cumque, 
+                        </AboutFace2>
                     </AboutCard>
-                    </AboutCard>
-            </AboutMVCContent> */}
+            </AboutMVCContent>
         </AboutMVC>
     </AboutWrapper>
   )

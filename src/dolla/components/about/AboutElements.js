@@ -90,15 +90,13 @@ export const AboutMVCHeading = styled.div`
     max-width: 285px;
 `
 
-
-
 export const AboutMVCHead = styled.p`
     color: #01fb71;
     text-transform: uppercase;
     font-size: 15px;
 `
 export const AboutMVCContent = styled.div`
-    max-width: 1000px;
+    max-width: 1500px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-top: 20px;
@@ -106,35 +104,67 @@ export const AboutMVCContent = styled.div`
     grid-gap: 16px;
 `
 export const AboutCard = styled.div`
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 40px;
-    color: #000;
-    transition: all .3s ease;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
 
-    &:hover {
-        transform: translateY(-5px)
+    &:hover .face1 {
+        transform: translateY(-100%) rotateX(90deg);
+        background: #01fb71;
+    }
+
+    &:hover .face2 {
+        transform: translateY(0%) rotateX(0deg)
     }
 `
 
 export const AboutFace1 = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+    background: #000;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform-origin: bottom;
+    z-index: 1;
 
+    // &:hover {
+    //     transform: translateY(-100%) rotateX(90deg);
+    //     background: #01fb71;
+    // }
 ` 
 
 export const AboutFace2 = styled.div`
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: .5s;
+    background: #fff;
+    color: #000;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transfrom-origin: top;
+    transfrom: translateY(100%) rotateX(90deg);
 ` 
 
 export const AboutMissionIcon = styled(FiSettings)`
     color: #01bf71;
     font-size: 2rem;
-`
-export const AboutVision = styled.div`
-
 `
 
 export const AboutVisionIcon = styled(FiSettings)`
@@ -142,15 +172,12 @@ export const AboutVisionIcon = styled(FiSettings)`
     font-size: 2rem;
 `
 
-export const AboutCoreValues = styled.div`
-
-`
-
 export const AboutCoreValuesIcon = styled(FiSettings)`
     color: #01bf71;
     font-size: 2rem;
 `
-export const AboutWord = styled.h5`
-    color: #000;
+
+export const AboutWord = styled.h4`
+    color: #fff;
     padding-top: 10px;
 `
