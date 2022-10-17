@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { FiSettings } from 'react-icons/fi'
 
 export const AboutWrapper = styled.div`
-    background: #000;
+    background: #000300;
     color: #fff;
     width: 100%;
     height: 100%;

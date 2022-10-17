@@ -43,7 +43,7 @@ const Jumbo = () => {
                 primary='true'
                 dark='true'
               >
-                Get started {hover ? <ArrowForward /> : <ArrowRight /> }
+                About Us {hover ? <ArrowForward /> : <ArrowRight /> }
               </Button>
             </JumboBtnWrapper>
           </Fade>

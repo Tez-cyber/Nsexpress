@@ -25,29 +25,30 @@ const Services = () => {
             <Fade left cascade>
                 <ServicesCard>
                     <ServicesIcon src={Icon1}></ServicesIcon>
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>Digital Marketing</ServicesH2>
                     <ServicesP>
-                        We help reduce your fees and increase your
-                        overall revenue
+                        We will help bring a new stream of clients 
+                        with modern strategies in the digital world
                     </ServicesP>
                 </ServicesCard>
             </Fade>
             <Fade up cascade>
                 <ServicesCard>
                     <ServicesIcon src={Icon2}></ServicesIcon>
-                    <ServicesH2>Virtual Offices</ServicesH2>
+                    <ServicesH2>UI/UX</ServicesH2>
                     <ServicesP>
-                        You can access our platform anywhere in the world
+                        Helping you create a human centric user interface
+                        for your proposed project
                     </ServicesP>
                 </ServicesCard>
             </Fade>
             <Fade right cascade>
                 <ServicesCard>
                     <ServicesIcon src={Icon3}></ServicesIcon>
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>eCommerce Solution</ServicesH2>
                     <ServicesP>
-                        Unlock our special membership card that returns 
-                        5% cash back
+                        Our team of developers will hold nothing
+                        back in giving the best to keep customers coming
                     </ServicesP>
                 </ServicesCard>
             </Fade>

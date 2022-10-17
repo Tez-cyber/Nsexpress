@@ -1,4 +1,4 @@
-import {
+import { 
     SidebarContainer,
     Icon,
     CloseIcon,

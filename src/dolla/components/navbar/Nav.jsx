@@ -14,13 +14,13 @@ import {
 import { FaBars } from 'react-icons/fa'
 
 const Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false)
+  const [scrollNav, setScrollNav] = useState(false) 
 
   const changeNav = () => {
     if(window.scrollY >= 80) {
       setScrollNav(true)
     } else {
-      setScrollNav(false)
+      setScrollNav(false) 
     }
   }
 
@@ -35,7 +35,9 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>Nsexpress</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>
+            <img src="/logo.png" alt="Nsexpres logo" />
+          </NavLogo>
           <MobileIcon onClick={toggle} >
             <FaBars />
           </MobileIcon> 

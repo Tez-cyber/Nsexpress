@@ -4,12 +4,16 @@ import {
     FooterWrap,
     FooterLinksContainer,
     FooterLinksWrapper,
+    SocialMedia,
+    SocialMediaWrap,
     FooterLinkItems,
     FooterLinkTitle,
     FooterLink,
     FooterLine,
-    FooterDetails
+    FooterDetails,
+    FooterSpan
 } from './FooterElements'
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -18,12 +22,16 @@ const Footer = () => {
             <FooterLinksContainer>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Company</FooterLinkTitle>
-                            <FooterLink to="/signin">How it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Contact</FooterLink>
+                        <FooterLinkTitle>Nsexpress</FooterLinkTitle>
+                            <p>Nigeria's Leading Web & Digital Agency</p>
+                            <SocialMedia>
+                                <SocialMediaWrap>
+                                    <FooterLink to="/"><i><FaFacebook /></i></FooterLink>
+                                    <FooterLink to="/"><i><FaTwitter /></i></FooterLink>
+                                    <FooterLink to="/"><i><FaInstagram /></i></FooterLink>
+                                    <FooterLink to="/"><i><FaLinkedin /></i></FooterLink>
+                                </SocialMediaWrap>
+                            </SocialMedia>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>Business</FooterLinkTitle>
@@ -36,12 +44,12 @@ const Footer = () => {
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinkItems>
-                        <FooterLinkTitle>Get In Touch</FooterLinkTitle>
-                            <FooterLink to="/signin">How it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Investors</FooterLink>
-                            <FooterLink to="/signin">Terms of Service</FooterLink>
+                        <FooterLinkTitle>Company</FooterLinkTitle>
+                            <FooterLink to="/">Home</FooterLink>
+                            <FooterLink to="/about">About</FooterLink>
+                            <FooterLink to="/">Services</FooterLink>
+                            <FooterLink to="/">Trainings</FooterLink>
+                            <FooterLink to="/">Contact</FooterLink>
                     </FooterLinkItems>
                     <FooterLinkItems>
                         <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -62,10 +70,14 @@ const Footer = () => {
             </SocialMedia> */}
             <FooterLine></FooterLine>
             <FooterDetails>
-                Copyright &copy; {new Date().getFullYear()}
-                All rights reserved
-                    | 
-                Powered by Nsexpress Digital Limited
+                <div>
+                    Copyright &copy; {new Date().getFullYear()}, 
+                    All rights reserved
+                </div>
+                    <FooterSpan></FooterSpan>
+                <div>
+                    Powered by Nsexpress Digital Limited
+                </div>
             </FooterDetails>
         </FooterWrap>
     </FooterContainer>

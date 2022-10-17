@@ -1,6 +1,7 @@
 // import img from '../../assets/images/'
 export const objOne = {
     id: 'info',
+    link: '/about',
     fade: true,
     lightBg: false,
     lightText: true,
@@ -18,14 +19,15 @@ export const objOne = {
 };
 export const objTwo = {
     id: 'discover',
+    link: '/',
     fade: false,
     lightBg: false,
     lightText: true,
     lightTextDesc: false,
     topLine: 'Why Nsexpress digitals?',
-    headline: 'Premium designs with zero effort',
-    desc: "Exquisite designs of world-class standard that helps you send your brand's message effectively",
-    buttonLabel: 'Get started',
+    headline: 'Digital solutions at a click',
+    desc: "Creating well-defined digital methods to attract customers",
+    buttonLabel: 'Read more',
     imgStart: true,
     img: '/svgs/svg-1.svg',
     alt: '',
@@ -35,13 +37,14 @@ export const objTwo = {
 }
 export const objThree = {
     id: 'signup',
+    link: '/trainings',
     fade: false,
     lightBg: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'It training',
-    headline: 'Premium designs with zero effort',
-    desc: "Exquisite designs of world-class standard that helps you send your brand's message effectively",
+    topLine: 'It Training & Consultancy',
+    headline: 'Consultancy with a single click',
+    desc: "Making you self-reliant in tech through premium mentorship",
     buttonLabel: 'Start Now',
     imgStart: false,
     img: '/svgs/svg-3.svg',
