@@ -19,7 +19,7 @@ export const objOne = {
 };
 export const objTwo = {
     id: 'discover',
-    link: '/',
+    link: '/why_nsexpress',
     fade: false,
     lightBg: false,
     lightText: true,

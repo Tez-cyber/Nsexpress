@@ -10,8 +10,8 @@ import {
   ArrowForward,
   ArrowRight
 } from './JumboElements'
-import { Button } from '../ButtonElements'
-import Video from '../../assets/videos/video3.mp4';
+import { Button } from '../../ButtonElements'
+import Video from '../../../assets/videos/video3.mp4';
 import Fade from 'react-reveal/Fade'
 
 const Jumbo = () => {

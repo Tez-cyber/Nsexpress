@@ -1,6 +1,5 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade'
-
 import {
     ServicesContainer,
     ServicesH1,
@@ -11,11 +10,11 @@ import {
     ServicesP
 } from './ServiceElements'
 
-import Icon1 from '../../assets/images/svg-1.svg'
-import Icon2 from '../../assets/images/svg-1.svg'
-import Icon3 from '../../assets/images/svg-1.svg'
+import Icon1 from '../../../assets/images/svg-1.svg'
+import Icon2 from '../../../assets/images/svg-1.svg'
+import Icon3 from '../../../assets/images/svg-1.svg'
 
- 
+
 
 const Services = () => {
   return (
